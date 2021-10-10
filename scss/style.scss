@@ -330,7 +330,7 @@ body {
     background: url("../img/bg/element.png") no-repeat top 12% left;
 
     &__container {
-        height: calc(100vh - var(--header-height));
+        height: 100vh;
         align-content: center;
         gap: var(--mb-4);
     }
@@ -484,7 +484,7 @@ body {
     }
 
     &__title {
-        font-size: var(--sm-size);
+        font-size: var(--xs-size);
         margin-bottom: 12px;
     }
 
@@ -576,7 +576,7 @@ body {
 }
 
 /* ===== MEDIA QUERIES ===== */
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .home {
         background: none;
     }
@@ -589,7 +589,7 @@ body {
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:769px) {
     .nav {
         &__list {
             display: flex;
